@@ -7,8 +7,8 @@
 # To use this script, simply open a terminal in the directory where you
 # extracted this script (or use the "cd" command to go to this directory).
 # Then you can simply type in the cmd the following:
-#    (for Linux) python3 gmail.py -ue "your email" -p "your password" -r "the receiver's email" -s "subject of the mail" -t "the body/content of the mail" -a "attachment's path(if you have any attachment to put)"
-#    (for Windows) py gmail.py -ue "your email" -p "your password" -r "the receiver's email" -s "subject of the mail" -t "the body/content of the mail" -a "attachment's path(if you have any attachment to put)"
+#    (for Linux) python3 gmail_sender.py -ue "your email" -p "your password" -r "the receiver's email" -s "subject of the mail" -t "the body/content of the mail" -a "attachment's path(if you have any attachment to put)"
+#    (for Windows) py gmail_sender.py -ue "your email" -p "your password" -r "the receiver's email" -s "subject of the mail" -t "the body/content of the mail" -a "attachment's path(if you have any attachment to put)"
 #
 # You can use a "\n" as a return in the body of the mail (obviously not in the subject).
 # 
