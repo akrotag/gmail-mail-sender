@@ -15,6 +15,15 @@ git clone https://github.com/akrotag/gmail-mail-sender.git
 ```bash
 gmail_sender.py -ue "your email" -p "your password" -r "the receiver's email" -s "subject of the mail" -t "the body/content of the mail" -a "attachment's path(if you have any attachment to put)"
 ```
+Details:
+-
+
+-You can use a "\n" to break the body
+
+-There is only three(3) mandatory commands that are: -ue, -p and -r
+
+## Limitations
+There is only one important limitations: Your attachment can't weight more than 25MB due to [gmail's attachemnt size limit](https://support.google.com/mail/?p=MaxSizeError)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
