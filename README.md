@@ -11,7 +11,7 @@ git clone https://github.com/akrotag/gmail-mail-sender.git
 ```
 
 ## Usage
-
+First navigate to the script's directory, then
 ```bash
 gmail_sender.py -ue "your email" -p "your password" -r "the receiver's email" -s "subject of the mail" -t "the body/content of the mail" -a "attachment's path(if you have any attachment to put)"
 ```
