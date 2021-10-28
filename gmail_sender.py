@@ -43,13 +43,20 @@ def send(sender, password, receiver, subject, message, attachment):
     msg.attach(MIMEText(body, 'plain'))
 
     ###-Setting up attachment-###
-    if attachment and attachment != " " and not(attachment is None):
+    try:
         attach = open(attachment, "rb")
+        name = attachment
+        if "\\" in attachment:
+            name = attachment.split("\\")[-1]
+        elif "/" in attachment:
+            name = attachment.split("/")[-1]
         p = MIMEBase('application', 'octet-stream')
         p.set_payload((attach).read())
         encoders.encode_base64(p)
-        p.add_header('Content-Disposition', "attachment; filename= %s" % attach)
+        p.add_header('Content-Disposition', "attachment; filename= %s" % name)
         msg.attach(p)
+    except TypeError as error:
+        pass    
 
     ###-Connecting to gmail smtp server-###
     s = smtplib.SMTP('smtp.gmail.com', 587)
