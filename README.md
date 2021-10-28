@@ -1,2 +1,24 @@
-# gmail-mail-sender
-Send emails easily using this simple script
+# Gmail email sender
+
+Gmail email sender (yeah I was really inspired for the name) is a simple python terminal script that allows you to send emails to anyone as long as you have a gmail account
+
+## Installation
+
+Simply download the code or use the git clone command to clone the repository
+
+```bash
+git clone https://github.com/akrotag/gmail-mail-sender.git
+```
+
+## Usage
+
+```bash
+gmail_sender.py -ue "your email" -p "your password" -r "the receiver's email" -s "subject of the mail" -t "the body/content of the mail" -a "attachment's path(if you have any attachment to put)"
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+I would just ask you to please comment your code, not necessarily as much as I did but at least for it to be understandable by a beginner
+
+Please make sure to update tests as appropriate.
