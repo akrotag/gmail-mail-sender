@@ -25,6 +25,14 @@ Details:
 ## Limitations
 There is only one important limitations: Your attachment can't weight more than 25MB due to [gmail's attachemnt size limit](https://support.google.com/mail/?p=MaxSizeError)
 
+## Requirements
+
+- Python (of course)
+- smtplib
+- email
+
+all of these packages can be installed using the python -m pip command on linux and the py -m pip command on windows
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
