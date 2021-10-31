@@ -31,7 +31,7 @@ There is only one important limitations: Your attachment can't weight more than 
 - smtplib
 - email
 
-all of these packages can be installed using the python -m pip command on linux and the py -m pip command on windows
+all of these packages can be installed using the pip3 command on linux and the py -m pip command on windows
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
