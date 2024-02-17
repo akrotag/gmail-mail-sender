@@ -1,4 +1,4 @@
-# Gmail email sender
+# [Depecrated] Gmail email sender
 
 Gmail email sender (yeah I was really inspired for the name) is a simple python terminal script that allows you to send emails to anyone as long as you have a gmail account
 
